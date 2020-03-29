@@ -1,0 +1,45 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    border: 0px solid black;
+    padding: 30px;
+}
+
+table {
+    border-spacing: 30px;
+    margin-top: 110;
+}
+
+.card {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.322);
+    transition: 0.3s;
+    width: -50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 8px 0 rgba(119, 119, 119, 0.2);
+}
+
+.container {
+    padding: 2px 8px;
+}
+
+.center {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}

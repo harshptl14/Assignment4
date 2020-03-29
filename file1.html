@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="file1.css">
+
+
+</head>
+
+<body>
+    <div style="width: 100%; height: 80px; background-color: #39e600; text-align:center;">
+
+        <!-- <header style="padding: 10px; font-family: Montserrat; font-weight: bold; color: white">
+            <p>Registration Form</p>
+        </header> -->
+
+        <header>
+            <div style="Height: 150; width:100%; background-color: #111E6C; color: rgb(255, 255, 255); text-align:center;">
+                <h1 style="padding-top: 50px; font-family: Montserrat;">REGISTRATION FORM</h1>
+            </div>
+        </header>
+
+    </div>
+
+    <center>
+        <table width="50%" height="50%" class="card" class="container">
+
+            <tr>
+                <td>
+
+                    <center>
+                        <form name="RegForm" onsubmit="return validate()" method="post">
+
+                            <b style="font-family: Montserrat;">First Name :</b>
+                            <input type="text" id="fname" name="firstname">
+                            <br><br>
+                            <b style="font-family: Montserrat;">Last Name :</b>
+                            <input type="text" name="lastname">
+                            <br> <br>
+                            <b style="font-family: Montserrat;">Select Gender :</b>
+                            <input type="radio" name="gender" value="male" checked> Male
+                            <input type="radio" name="gender" value="female"> Female
+                            <input type="radio" name="gender" value="other"> Other
+                            <br><br>
+
+                            <b style="font-family: Montserrat;">Birthday:</b>
+                            <input type="date" name="bday">
+                            <br><br>
+                            <b style="font-family: Montserrat;"> E-mail: </b>
+                            <input type="email" name="email">
+                            <br><br>
+                            <b style="font-family: Montserrat;"> College Name : </b>
+                            <input type="college" name="college">
+                            <br><br>
+                            <b style="font-family: Montserrat;"> Address :</b>
+                            <textarea rows="4" cols="50" name="address">
+						</textarea>
+                            <br><br>
+                            <b style="font-family: Montserrat;"> ID number: </b>
+                            <input type="id" name="id">
+                            <br><br>
+                            <input type="submit" onclick="Validate()" name="submit">
+                        </form>
+                    </center>
+
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
+</body>
+
+</html>
